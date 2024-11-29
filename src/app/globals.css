@@ -5,17 +5,56 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --yellow: #f5ff7d;
+  --grey: #f4f4f4;
+  --dark-grey: #d9d9d9;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
+  max-width: 1440px;
+  margin: 0 auto;
   color: var(--foreground);
-  background: var(--background);
+  background: var(--grey);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: "Electrolize", sans-serif;
+  font-size: 40px;
+  line-height: 1.2;
+}
+h2 {
+  font-family: "Electrolize", sans-serif;
+  font-size: 28px;
+}
+h3 {
+  font-size: 26px;
+}
+h4 {
+  font-size: 14px;
+}
+
+p {
+  font-size: 19px;
+  font-family: "Gilroy", sans-serif;
+}
+button {
+  font-size: 19px;
+  font-family: "Gilroy", sans-serif;
+}
+
+.navSpan {
+  background-color: var(--yellow);
+
+  position: absolute;
+
+  transition: transform 0.5s ease, width 1000ms ease;
+  bottom: 0;
 }
