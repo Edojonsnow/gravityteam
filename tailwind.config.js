@@ -20,7 +20,7 @@ module.exports = {
         electrolize: ["var(--font-electrolize)"],
       },
       fontSize: {
-        h1: "72px",
+        h1: "56px",
         h2: "28px",
         h4: "14px",
         p: "19px",

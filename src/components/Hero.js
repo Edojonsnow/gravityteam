@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="mx-16 flex justify-between">
       <div>
-        <h1 className=" pt-20  text-h1">
+        <h1 className=" pt-20  text-[75px]">
           THE MATTE ENGINE <br /> PRODUCT DESIGN <br /> COURSES
         </h1>
         <div className="flex mt-10 justify-center items-center gap-2 border border-black rounded-full py-3 px-7 bg-yellow w-fit">

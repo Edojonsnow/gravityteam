@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import MidSection from "@/components/MidSection";
 import Nav from "@/components/Nav";
+import Tools from "@/components/Tools";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,6 +11,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <MidSection />
+      <Tools />
     </div>
   );
 }
