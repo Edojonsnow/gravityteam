@@ -6,7 +6,13 @@ import Register from "./Register";
 import Tools from "./Tools";
 const MidSection = () => {
   return (
-    <div className="relative bg-black  pt-4 -mt-16 rounded-tl-[40px] rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px]">
+    <div
+      data-aos="slide-up"
+      data-aos-delay="350"
+      data-aos-duration="2000"
+      data-aos-easing="ease-in-out"
+      className="relative bg-black  pt-4 -mt-16 rounded-tl-[40px] rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px]"
+    >
       <Image
         className="absolute top-0 mx-auto left-0 right-0"
         src="/curve.svg"

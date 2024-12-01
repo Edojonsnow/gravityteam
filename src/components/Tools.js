@@ -3,13 +3,15 @@ import React from "react";
 
 const Tools = () => {
   return (
-    <div className="bg-darkGrey -mt-10 pt-10 pb-12 ">
-      <div className="w-[750px] pt-12 pl-16">
+    <div className="bg-darkGrey -mt-10 pt-10 pb-12 rounded-bl-[42px]   rounded-br-[42px]  ">
+      <div className=" pt-12 pl-16">
         <h4 className="font-electrolize">TOOLS</h4>
-        <h1 className="">THE TOOL HELPS TO ENHANCE DESIGNER'S EXPERIENCE</h1>
+        <h1 className="">
+          THE TOOL HELPS TO ENHANCE <br /> DESIGNER'S EXPERIENCE
+        </h1>
       </div>
       <div className="flex pt-12 ">
-        <div className="relative w-[500px] h-[611px]  ">
+        <div className="relative w-[500px] h-[611px] animate-bounce animate-ease-in-out  ">
           <Image className="" src="/second-graphic.svg" fill alt="tools" />
         </div>
 

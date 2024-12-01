@@ -27,7 +27,7 @@ body {
 
 h1 {
   font-family: "Electrolize", sans-serif;
-  font-size: 40px;
+  font-size: 54px;
   line-height: 1.2;
 }
 h2 {
@@ -57,4 +57,40 @@ button {
 
   transition: transform 0.5s ease, width 1000ms ease;
   bottom: 0;
+}
+
+.projectPopup {
+  height: 378px;
+  transition: height 0.5s ease;
+}
+.group:hover .projectPopup {
+  height: 470px;
+}
+
+.writeUp span {
+  color: hsl(0 0% 100%/0.2);
+  background-clip: text;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-image: linear-gradient(90deg, white, white);
+  animation: scroll-reveal linear forwards;
+  animation-timeline: view();
+}
+.writeUp h1 span {
+  animation-range-start: 20vh;
+  animation-range-end: 80vh;
+}
+
+@keyframes scroll-reveal {
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+[data-aos="rotate-curve"] {
+  transform: translateY(100%);
+  transition-property: transform;
+  &.aos-animate {
+    transform: translateY(0);
+  }
 }

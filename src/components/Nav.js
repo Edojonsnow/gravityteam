@@ -56,9 +56,16 @@ const Nav = () => {
   });
   return (
     <div className="flex justify-between items-center p-4">
-      <Image src="/logo_black.svg" alt="logo" width={50} height={50} />
+      <Image
+        data-aos="fade-right"
+        src="/logo_black.svg"
+        alt="logo"
+        width={50}
+        height={50}
+      />
 
       <div
+        data-aos="fade-down"
         ref={navRef}
         className="flex overflow-hidden gap-1 relative items-center bg-white    border border-black  rounded-[42px]"
       >
@@ -69,6 +76,8 @@ const Nav = () => {
           className="flex pl-4 w-28 relative items-center "
         >
           <Image
+            data-aos="fade-down"
+            data-aos-delay="0"
             className="absolute top-0 -right-1"
             src="/nav-curve.svg"
             width={40}
@@ -90,6 +99,8 @@ const Nav = () => {
           style={linkStyle(activeIndex === 2)}
         >
           <Image
+            data-aos="fade-down"
+            data-aos-delay="100"
             className="absolute top-0 -right-1"
             src="/nav-curve.svg"
             width={40}
@@ -103,7 +114,7 @@ const Nav = () => {
             height={40}
             alt="nav-curve"
           />
-          <p className="py-2   text-center  px-1">Program</p>
+          <p className="py-2   text-center  px-1 font-electrolize  ">Program</p>
         </div>
         <div
           className="flex w-28 relative items-center "
@@ -111,6 +122,8 @@ const Nav = () => {
           style={linkStyle(activeIndex === 3)}
         >
           <Image
+            data-aos="fade-down"
+            data-aos-delay="200"
             className="absolute top-0 right-1"
             src="/nav-curve.svg"
             width={40}
@@ -124,7 +137,7 @@ const Nav = () => {
             height={40}
             alt="nav-curve"
           />
-          <p className="py-2 text-center  px-2">About</p>
+          <p className="py-2 text-center  px-2 font-electrolize  ">About</p>
         </div>
         <div
           className="flex w-28 relative items-center "
@@ -132,6 +145,8 @@ const Nav = () => {
           style={linkStyle(activeIndex === 4)}
         >
           <Image
+            data-aos="fade-down"
+            data-aos-delay="300"
             className="absolute top-0 right-3"
             src="/nav-curve.svg"
             width={40}
@@ -145,14 +160,14 @@ const Nav = () => {
             height={40}
             alt="nav-curve"
           />
-          <p className="py-2 text-center  ">Tools</p>
+          <p className="py-2 text-center font-electrolize  ">Tools</p>
         </div>
         <div
           className="flex w-20 relative items-center "
           onClick={(event) => handleClick(5, event)}
           style={linkStyle(activeIndex === 5)}
         >
-          <p className="py-2 text-center  ">Pricing</p>
+          <p className="py-2 text-center font-electrolize  ">Pricing</p>
         </div>
 
         {/* <p className="py-2 text-center  px-1">Program</p>
@@ -161,14 +176,11 @@ const Nav = () => {
         <p className="py-2 text-center  px-1">Pricing</p> */}
       </div>
 
-      <div className="border border-black rounded-full p-1 bg-yellow">
-        <Image
-          className="bg-yellow-50 rounded-full p-1"
-          src="/icon_login.svg"
-          alt="logo"
-          width={30}
-          height={30}
-        />
+      <div
+        data-aos="fade-left"
+        className="border border-black rounded-full w-11 h-11 flex items-center justify-center p-1 bg-yellow"
+      >
+        <Image src="/icon_login.svg" alt="logo" width={24} height={24} />
       </div>
     </div>
   );

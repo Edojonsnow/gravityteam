@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const ProgramSection = () => {
   return (
-    <div className="bg-darkGrey rounded-tl-[40px] pb-20 rounded-tr-[40px]  rounded-br-[40px] rounded-bl-[40px]  flex lg:flex-row justify-between  lg:px-16 flex-col  mt-6">
+    <div className="bg-darkGrey rounded-tl-[40px] gap-[100px] pb-20 rounded-tr-[40px]  rounded-br-[40px] rounded-bl-[40px]  flex lg:flex-row justify-between  lg:px-16 flex-col  mt-6">
       <ProgramGraphic />
-      <div className="pt-[59px] lg:w-[750px] ">
+      <div className="pt-[59px]  ">
         <div className="">
           <h4 className="font-electrolize">PROGRAM</h4>
           <h1 className="">PRODUCT DESIGN PROGRAM DETAILS IN THIS PROGRAM</h1>
