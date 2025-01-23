@@ -18,8 +18,18 @@ const Register = () => {
         </h1>
       </div>
 
-      <div className="flex mt-10 justify-center cursor-pointer group transition-all items-center gap-2 border border-black rounded-full py-3 px-7 bg-yellow w-full">
-        <button className="font-electrolize">Register </button>
+      <div
+        data-aos="increase-width"
+        data-aos-duration="1500"
+        className="flex mt-10 justify-center cursor-pointer group transition-all items-center gap-2 border border-black rounded-full py-3 px-7 bg-yellow w-full"
+      >
+        <button
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          className="font-electrolize"
+        >
+          Register{" "}
+        </button>
         <Image
           className="group-hover:scale-125 group-hover:rotate-45 transition-all"
           src="/line-arrow2.svg"

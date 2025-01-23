@@ -8,7 +8,7 @@ const MidSection = () => {
   return (
     <div
       data-aos="slide-up"
-      data-aos-delay="350"
+      data-aos-delay=""
       data-aos-duration="2000"
       data-aos-easing="ease-in-out"
       className="relative bg-black  pt-4 -mt-16 rounded-tl-[40px] rounded-tr-[40px] rounded-br-[40px] rounded-bl-[40px]"

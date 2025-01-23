@@ -3,24 +3,68 @@ import React from "react";
 
 const PricingTable = () => {
   return (
-    <div className="text-white flex relative mx-16 mt-16 ">
+    <div
+      data-aos="fade-in"
+      data-aos-delay="350"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className="text-white flex relative mx-16 mt-16 "
+    >
       <div className="flex pl-10 py-1 justify-center flex-col w-[452px] h-[378px] mt-[156px] text-black bg-white border-white border  rounded-tl-[40px] rounded-bl-[40px]">
-        <p className="my-5 text-lg font-electrolize font-bold">
+        <p
+          data-aos="fade-right"
+          data-aos-delay="350"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          className="my-5 text-lg font-electrolize font-bold"
+        >
           Video Conferencing
         </p>
-        <p className="my-5 text-lg font-electrolize font-bold">
+        <p
+          data-aos="fade-right"
+          data-aos-delay="400"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          className="my-5 text-lg font-electrolize font-bold"
+        >
           Lecture Package
         </p>
-        <p className="my-5 text-lg font-electrolize font-bold">
+        <p
+          data-aos="fade-right"
+          data-aos-delay="450"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          className="my-5 text-lg font-electrolize font-bold"
+        >
           General Information
         </p>
-        <p className="my-5 text-lg font-electrolize font-bold">
+        <p
+          data-aos="fade-right"
+          data-aos-delay="500"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          className="my-5 text-lg font-electrolize font-bold"
+        >
           Introduction to Specialty
         </p>
-        <p className="my-5 text-lg font-electrolize font-bold">Main Teachers</p>
+        <p
+          data-aos="fade-right"
+          data-aos-delay="550"
+          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          className="my-5 text-lg font-electrolize font-bold"
+        >
+          Main Teachers
+        </p>
       </div>
       <div className="relative flex">
-        <div className="absolute flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="350"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="absolute flex flex-col gap-11 hover:gap-0  overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black"
+        >
           <div className="h-24 ">
             <h1 className="">Free</h1>
             <p className="text-sm uppercase  font-bold  ">
@@ -41,7 +85,13 @@ const PricingTable = () => {
           </div>
         </div>
 
-        <div className="absolute left-[216px] flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="400"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="absolute left-[216px] flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black"
+        >
           <div className="h-24 ">
             <h1 className="">
               <sup className="text-sm relative -top-10  font-bold">$</sup>
@@ -65,7 +115,13 @@ const PricingTable = () => {
             </button>
           </div>
         </div>
-        <div className="absolute left-[432px] flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="450"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="absolute left-[432px] flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black"
+        >
           <div className="h-24 ">
             <h1 className="">
               <sup className="text-sm relative -top-10  font-bold">$</sup>
@@ -87,7 +143,13 @@ const PricingTable = () => {
             </button>
           </div>
         </div>
-        <div className="absolute left-[648px] flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className="absolute left-[648px] flex flex-col gap-11 hover:gap-0 overflow-hidden w-[216px]  group   hover:rounded-[40px] transition-none   px-5 py-4 items-center justify-center hover:bg-yellow hover:text-black"
+        >
           <div className="h-24 ">
             <h1 className="">
               <sup className="text-sm relative -top-10  font-bold">$</sup>

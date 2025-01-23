@@ -17,7 +17,7 @@ const PTG = () => {
         alt="line"
       />
       <div className="flex-1">
-        <div className="flex flex-col gap-20 justify-end">
+        <div className="flex flex-col gap-28 justify-end">
           <div>
             <h1
               data-aos="fade-in"
@@ -25,7 +25,7 @@ const PTG = () => {
               data-aos-offset="200"
               data-aos-duration="1000"
               data-aos-easing="ease-in-out"
-              className="text-h1  pt-[100px] pl-10  "
+              className="text-h1  pt-[60px] pl-10  "
             >
               JOIN THE PATH <br /> TO GREATNESS{" "}
             </h1>

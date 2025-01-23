@@ -14,7 +14,13 @@ const Pricing = () => {
     <div className="relative  " id="pricing">
       <div className="bg-black relative  pt-10 pb-12 -mt-10 -z-10 rounded-bl-[60px] rounded-br-[60px] h-[1000px] "></div>
       <div className="absolute top-0 left-0 w-full h-full">
-        <div className=" pt-24 pl-16 text-white  ">
+        <div
+          data-aos="fade-in"
+          data-aos-delay="300"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          className=" pt-24 pl-16 text-white  "
+        >
           <h4 className="font-electrolize">PRICING</h4>
           <h1 className="">
             SELECT A MEMBERSHIP LEVEL <br /> THE RIGHT PRICE FOR YOU

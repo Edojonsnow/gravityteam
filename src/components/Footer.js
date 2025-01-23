@@ -3,8 +3,19 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white font-electrolize px-11 pb-16 rounded-tr-[60px] -mt-10 pt-10   rounded-tl-[60px]">
-      <div className=" flex gap-10">
+    <div
+      data-aos="slide-up"
+      data-aos-duration="1000"
+      data-aos-offset="0"
+      className="bg-black text-white font-electrolize px-11 pb-16 rounded-tr-[60px] -mt-10 pt-10   rounded-tl-[60px]"
+    >
+      <div
+        data-aos="fade-in"
+        data-aos-delay="400"
+        data-aos-duration="1000"
+        data-aos-offset="0"
+        className=" flex gap-10"
+      >
         <div className="flex pt-6 flex-col">
           <Image
             className=" ml-5"

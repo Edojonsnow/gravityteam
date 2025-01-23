@@ -94,3 +94,14 @@ button {
     transform: translateY(0);
   }
 }
+
+[data-aos="increase-width"] {
+  width: 0%;
+
+  transition-property: width;
+
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  &.aos-animate {
+    width: 100%;
+  }
+}
