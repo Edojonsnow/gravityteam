@@ -91,7 +91,7 @@ const Nav = () => {
             height={40}
             alt="nav-curve"
           />
-          <p className="py-2 text-center  ">Course</p>
+          <p className="py-2 text-center font-electrolize  ">Course</p>
         </div>
         <div
           className="flex w-28 relative items-center "
